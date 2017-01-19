@@ -1,4 +1,7 @@
 # Prestige Wiki
 
 ## Used github repositories
-* A[link](https://github.com/Ordineo/prestige-frontend)
+* [Prestige Frontend](https://github.com/Ordineo/prestige-frontend)
+
+## Best practices:
+* [Git](https://ordineo.github.io/prestige-wiki/git)
