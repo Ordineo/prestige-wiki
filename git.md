@@ -14,7 +14,7 @@ Example below is to merge your changes on feature branch 'features/PRES-XX' to m
 * Go to master branch
     {% highlight bash %}git checkout master{% endhighlight %}
 * Make sure you have the latest version of the master branch.
-    {% highlight bash %}git pull --rebase origin/master{% endhighlight %}
+    {% highlight bash %}git pull --rebase origin master{% endhighlight %}
 * Go to the feature branch
     {% highlight bash %}git checkout features/PRES-XX{% endhighlight %}
 * Optional: Squach your commits before going further, this can be done to cleanup the git history before it's added to the master branch. The number behind HEAD~ is used to determine how many commits will be shown in the interactive rebase.
