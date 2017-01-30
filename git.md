@@ -27,12 +27,12 @@ Example below is to merge your changes on feature branch 'features/PRES-XX' to m
 * Go to the feature branch
     {% highlight bash %}git checkout features/pres-xx{% endhighlight %}
 * Make sure you have the latest code on your feature branch
-    {% highlight bash %}git pull --rebase origin features/PRES-XX{% endhighlight %}
+    {% highlight bash %}git pull --rebase origin features/pres-xx{% endhighlight %}
 * Optional: Squach your commits before going further, this can be done to cleanup the git history before it's added to the master branch. Best practice however is do this on your local branch, you are not supposed to squash commits from other developers. The number behind HEAD~ is used to determine how many commits will be shown in the interactive rebase. After the sqush you will need to force push your commits, before you do this you must be sure that noone else is committing on the feature branch.
     {% highlight bash %}
     git rebase -i HEAD~3
     //Make sure no new commits have been done on the feature branch
-    git push -f
+    git push -f origin features/pres-xx
     {% endhighlight %}
 * Rebase the feature branch with master
     {% highlight bash %}git rebase master{% endhighlight %}
