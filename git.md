@@ -16,6 +16,9 @@ You should always develop on local branches that are branched from a feature bra
     {% highlight bash %}git rebase -i HEAD~3{% endhighlight %}
 * Follow the same procedure for a correct rebase.
 
+### Commits
+Every commit should start with the correct Jira ticket. This way the commit can be matched with the ticket in Jira.
+
 ## Correct rebase & Pull request for master branch
 Example below is to merge your changes on feature branch 'features/PRES-XX' to master. However same procedure should be followed if you want to merge local branch to a feature branch.
 
