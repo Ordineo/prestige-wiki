@@ -49,3 +49,5 @@ Example below is to merge your changes on feature branch 'features/PRES-XX' to m
     {% highlight bash %}git push -f origin features/PRES-XX{% endhighlight %}
 
 After this commit a pull request can be created in github.
+In case you don't need to create a pull request (merging between branches) then you can merge them:
+{%highlight git merge feature/gulp-package --ff-only %}
