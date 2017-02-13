@@ -7,7 +7,8 @@
 * [Prestige Employee service](https://github.com/Ordineo/prestige-employee-core-service)
 
 ## Private repositories
-The ordina-jworks admin (Ken Coenen) need to grant you access
+The ordina-jworks admin (Ken Coenen) need to grant you access  
+
 * [Prestige Config](https://github.com/ordina-jworks/prestige-config)
 * [Prestige Config Server](https://github.com/ordina-jworks/prestige-config-server)
 
