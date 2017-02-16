@@ -15,3 +15,6 @@ The ordina-jworks admin (Ken Coenen) need to grant you access
 
 ## Best practices:
 * [Git](https://ordineo.github.io/prestige-wiki/git)
+
+## Deploying code (Docker)
+* [Git](https://ordineo.github.io/prestige-wiki/deploy-code)
