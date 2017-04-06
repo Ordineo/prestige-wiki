@@ -4,7 +4,8 @@
 * [Prestige Frontend](https://github.com/Ordineo/prestige-frontend)
 * [Prestige Eureka](https://github.com/Ordineo/prestige-eureka)
 * [Prestige Gateway](https://github.com/Ordineo/prestige-gateway)
-* [Prestige Employee service](https://github.com/Ordineo/prestige-employee-core-service)
+* [Prestige Employees service](https://github.com/Ordineo/prestige-employees-service)
+* [Prestige Endorsements service](https://github.com/Ordineo/prestige-endorsements-service)
 
 ## Private repositories
 The ordina-jworks admin (Ken Coenen) need to grant you access  
