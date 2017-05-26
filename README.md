@@ -25,17 +25,17 @@ Therefore I suggest that there will be sent an email to that employee's email ad
 The problem with this is that the employee needs to put an email address public on GitHub because only public email addresses can be imported.
 * Endpoints on port __:8081__
     * /
-    * [/employees](https://github.com/Ordineo/prestige-wiki/endpoints/#employees)
-    * /roles
+    * [/employees](https://github.com/Ordineo/prestige-wiki/#employees)
+    * [/roles](https://github.com/Ordineo/prestige-wiki/#roles)
     * /register
     * /login
 
 The Endorsements service is a REST webservice that exposes all the endorsements granted or received.
 * Endpoints on port __:8082__
     * /
-    * /endorsements
-    * /categories
-    * /likes
+    * [/endorsements](https://github.com/Ordineo/prestige-wiki/#endorsements)
+    * [/categories](https://github.com/Ordineo/prestige-wiki/#categories)
+    * [/likes](https://github.com/Ordineo/prestige-wiki/#likes)
 
 The Hystrix service should guarantee a consistent up-time. If other micro-services fail the hystrix service should replace them.
 This service can be up and running but is not yet doing it's job.

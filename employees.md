@@ -25,8 +25,29 @@
         }
       },
       "..."
-    ]}
+    ]},
+    "_links": {
+      "first": {
+        "href": "http://104.40.147.238:8081/employees?page=0&size=20"
+      },
+      "self": {
+        "href": "http://104.40.147.238:8081/employees"
+      },
+      "next": {
+        "href": "http://104.40.147.238:8081/employees?page=1&size=20"
+      },
+      "last": {
+        "href": "http://104.40.147.238:8081/employees?page=3&size=20"
+      }
+    },
+    "page": {
+      "size": 20,
+      "totalElements": 64,
+      "totalPages": 4,
+      "number": 0
+  }
 }
+
 ```
 ## /{username}
 ```json
